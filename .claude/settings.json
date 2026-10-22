@@ -6,9 +6,16 @@
         "source": "github",
         "repo": "addyosmani/agent-skills"
       }
+    },
+    "context7-marketplace": {
+      "source": {
+        "source": "github",
+        "repo": "upstash/context7"
+      }
     }
   },
   "enabledPlugins": {
-    "agent-skills@addy-agent-skills": true
+    "agent-skills@addy-agent-skills": true,
+    "context7@context7-marketplace": true
   }
 }
